@@ -1,2 +1,2 @@
-# wow_you_convert_it
+# Wow You Convert It
 See what your salary is worth in other currencies
