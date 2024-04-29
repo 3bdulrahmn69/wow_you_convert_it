@@ -1,8 +1,14 @@
+import RepoBtn from './components/RepoBtn';
+import Header from './components/Header';
+import RenderArea from './components/RenderArea';
+
 const App = () => {
   return (
-    <div>
-      <h1>My React App!</h1>
-    </div>
+    <main className="bg-cYellow min-h-screen text-white cursor-default">
+      <Header />
+      <RenderArea />
+      <RepoBtn />
+    </main>
   );
 };
 
