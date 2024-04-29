@@ -55,7 +55,7 @@ const ResultArea = ({ show, setShow, canBuy, currency }) => {
                   aria-label="Currency Image"
                 />
               ) : (
-                [...Array(Math.min(canBuy, 5))].map((_, i) => (
+                [...Array(Math.min(Math.floor(canBuy), 5))].map((_, i) => (
                   <img
                     key={i}
                     src={currencyImage}
