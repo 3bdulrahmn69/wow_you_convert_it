@@ -21,6 +21,11 @@ const RenderArea = () => {
     }));
   };
 
+  const canBuy =
+    salary && currencyObject[currency].price
+      ? (salary / currencyObject[currency].price).toFixed(1)
+      : 0;
+
   return (
     <div>
       {!show && (
@@ -36,7 +41,7 @@ const RenderArea = () => {
       <ResultArea
         show={show}
         setShow={setShow}
-        canBuy={salary / currencyObject[currency].price}
+        canBuy={canBuy}
         currency={currency}
       />
       <SettingsArea

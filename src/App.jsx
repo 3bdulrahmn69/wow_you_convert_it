@@ -4,7 +4,7 @@ import RenderArea from './components/RenderArea';
 
 const App = () => {
   return (
-    <main className="bg-cYellow min-h-screen text-white cursor-default">
+    <main className="bg-cYellow min-h-screen text-white cursor-default overflow-hidden">
       <Header />
       <RenderArea />
       <RepoBtn />

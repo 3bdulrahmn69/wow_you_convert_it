@@ -1,5 +1,6 @@
 import PropTypes from 'prop-types';
 import { useState } from 'react';
+import { motion } from 'framer-motion';
 
 const InputArea = ({
   salary,
@@ -30,7 +31,18 @@ const InputArea = ({
   };
 
   return (
-    <div className="flex justify-center">
+    <motion.div
+      animate={{
+        x: -120,
+        scale: [0.8, 1.2, 1],
+      }}
+      transition={{
+        duration: 0.3,
+        repeat: 1,
+        repeatType: 'reverse',
+      }}
+      className="flex justify-center"
+    >
       <div className="bg-white text-black md:w-8/12 w-11/12 md:mx-0 mx-2 md:max-w-2xl flex flex-col items-center py-8 rounded-xl shadow-lg border border-gray-200">
         <div className="flex md:items-center items-start mb-4 md:flex-row flex-col w-full md:w-auto px-2">
           <label htmlFor="salary-input" className="mr-2">
@@ -94,7 +106,7 @@ const InputArea = ({
           Convert
         </button>
       </div>
-    </div>
+    </motion.div>
   );
 };
 

@@ -1,4 +1,5 @@
 import PropTypes from 'prop-types';
+import { motion } from 'framer-motion';
 import Tools from './Tools';
 import fried_chicken from '../assets/fried_chicken.svg';
 import burger from '../assets/burger.svg';
@@ -20,7 +21,14 @@ const ResultArea = ({ show, setShow, canBuy, currency }) => {
   return (
     <>
       <div className="flex justify-center">
-        <div
+        <motion.div
+          initial={{ scale: 0, rotate: -180 }}
+          animate={{ rotate: 0, scale: 1 }}
+          transition={{
+            type: 'spring',
+            stiffness: 260,
+            damping: 50,
+          }}
           id="result-area"
           className="relative bg-white md:w-8/12 w-11/12 md:mx-0 mx-2 md:max-w-2xl mt-4 py-4 pb-8 px-8 rounded-xl shadow-lg border border-gray-200"
         >
@@ -65,7 +73,7 @@ const ResultArea = ({ show, setShow, canBuy, currency }) => {
               </a>
             </p>
           </div>
-        </div>
+        </motion.div>
       </div>
       <Tools show={show} setShow={setShow} />
     </>
