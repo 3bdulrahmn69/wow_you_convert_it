@@ -59,7 +59,10 @@ const ResultArea = ({ show, setShow, canBuy, currency }) => {
               )}
             </div>
             <p className="text-cOrange absolute bottom-2 left-2 text-xs">
-              by: <a href="Wow Currency Converter">Wow Currency Converter</a>
+              by:{' '}
+              <a href="https://wowyouconvertit.netlify.app">
+                https://wowyouconvertit.netlify.app
+              </a>
             </p>
           </div>
         </div>

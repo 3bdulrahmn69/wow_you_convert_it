@@ -9,8 +9,8 @@ const RenderArea = () => {
   const [show, setShow] = useState(false);
 
   const [currencyObject, setCurrencyObject] = useState({
-    fried_chicken: { name: 'Fried Chicken', price: 50 },
-    burger: { name: 'Burger', price: 100 },
+    fried_chicken: { name: 'Fried Chicken', price: 65 },
+    burger: { name: 'Burger', price: 120 },
     pizza: { name: 'Pizza', price: 150 },
   });
 
