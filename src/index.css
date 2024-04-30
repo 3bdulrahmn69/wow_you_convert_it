@@ -17,3 +17,16 @@
   background-color: #2c4e80;
   color: #ffffff;
 }
+
+::-webkit-scrollbar {
+  width: 11px;
+}
+::-webkit-scrollbar-thumb {
+  background-color: #a1a1a1;
+}
+::-webkit-scrollbar-thumb:hover {
+  background-color: #626262;
+}
+::-webkit-scrollbar-track {
+  background-color: #dedede;
+}
