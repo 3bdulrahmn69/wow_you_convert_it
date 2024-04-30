@@ -15,7 +15,7 @@ const App = () => {
         <div className="bg-cOrange w-11/12 md:px-16 px-8 md:py-8 py-4 rounded-2xl flex flex-col items-center gap-4">
           <Links />
           <p className="text-white">
-            BY:{'   '}
+            BY:{' '}
             <a
               href="https://3bdulrahmn.tech"
               target="_blank"
