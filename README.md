@@ -1,10 +1,10 @@
 # Wow You Convert It
 
 ## Description
-Wow You Convert It is a simple tool that allows you to see what your salary is worth in various wow currencies. Whether you're a WoW player curious about the in-game economy or just want to add a fun twist to understanding your salary, this tool is for you.
+W😲W You Convert It is a simple tool that allows you to see what your salary is worth in various wow currencies. If you want to add a fun twist to understanding your salary, this tool is for you.
 
 ## How it works
-Wow You Convert It takes your real-life salary as input and converts it into different WoW currencies based on current exchange rates. You simply input your salary amount, select the currency you're paid in, and choose the WoW currency you want to convert it to. The tool then calculates the equivalent amount in WoW gold, silver, or copper.
+Wow You Convert It takes your real-life salary as input and converts it into different W😲W currencies based on current exchange rates. You simply input your salary amount, select the currency you're paid in, and choose the W😲W  currency you want to convert it to. The tool then calculates the equivalent amount in W😲W currencies.
 
 ## Demo
 You can try out Wow You Convert It by visiting the [live demo](https://wowyouconvertit.netlify.app/).
